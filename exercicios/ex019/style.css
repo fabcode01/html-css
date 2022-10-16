@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+h1{
+    color: rgb(24, 22, 17);
+}
+
+h1#principal{
+    transition: all 1;
+    cursor: pointer;
+    text-align: center;
+    background-color: aliceblue;
+    
+
+}
+
+h1#principal:hover{
+    border-radius: 20px;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: black;
+}
+
+.basico{
+    color: rgb(82, 146, 103);
+
+}
+
+.intermediario{
+    color: rgb(134, 146, 82);
+}
+
+.avancado{
+    color: rgb(146, 82, 82);
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+article{
+    text-align: justify;
+}
+
+header{
+    
+    transition: all 0.5s;
+    border-radius: 5px;
+    background-color: rgb(172, 1, 1);
+}
+
+header > h1{
+    
+    transition: all 1s;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: beige;
+}
+header a{
+    transition: all 1seg;
+    color: rgb(255, 255, 255);
+    
+    margin-right: 30px;
+    text-decoration: none;
+
+    
+   
+}
+
+main{
+    background-color: rgb(219, 219, 219);
+    padding: 5px;
+   
+}
+
+footer{
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+
+header:hover{
+    background-color: black;
+    
+}
+
+header:hover > h1{
+    color: rgb(172, 1, 1);
+}
+
+button{
+    transition: all 0.5s;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(172, 1, 1);
+    border-radius: 5px;
+   
+}
+
+button:hover{
+    
+    background-color: rgb(172,1,1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    border-radius: 10px;
+    border: rgb(172,1,1);
+}

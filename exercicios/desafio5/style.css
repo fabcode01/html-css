@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h1,h2,h3,p
+{
+    color: aliceblue;
+}
+
+body{
+    background-color: black;}a{color: rgb(135, 105, 67);
+    }
+    
+hr{
+        width: 20%;position: relative;right: 40%;
+    
+    }
+strong
+{
+    color:rgb(190, 157, 114);
+}
