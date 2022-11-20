@@ -25,3 +25,8 @@ th, td{
 .separate{
     color: rgb(178, 208, 235);
 }
+
+col.cnotas{
+    background-color: aliceblue;
+    
+}
