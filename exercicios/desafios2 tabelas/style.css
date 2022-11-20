@@ -30,3 +30,7 @@ col.cnotas{
     background-color: aliceblue;
     
 }
+
+div.container{
+    overflow-x: auto;
+}
