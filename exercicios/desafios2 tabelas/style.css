@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    margin: auto;
+    width:600px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.gray{
+    color: aliceblue;
+    background-color: gray;
+}
+
+.separate{
+    color: rgb(178, 208, 235);
+}
