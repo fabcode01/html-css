@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            color: aliceblue;
+            background-color: rgb(66, 0, 92);
+        }
+        p{
+            margin-bottom: 4px;
+        }
+
+    
+
+        input#inome, #isobrenome{
+            
+            border-radius: 5px;
+            margin-top: 0%;
+           height: 1.6rem;
+           text-align: center;
+           ;
+        }
+
+
+        
+        
+        
+
+        input#enviar{
+           
+            border-radius: 10px;
+            border: 0px;
+            color: aliceblue;
+            background-color: rgb(18, 0, 34);
+            width: 100px;
+            height: 40px;
+            transition: all 0.5s;
+            margin: auto;
+        }
+        input#enviar:hover{
+            background-color: rgb(64, 0, 124);
+        }
+
+        h1{
+            text-align: center;
+        }
+        form{
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.349);
+            border-radius: 15px;
+            padding: 20px;
+            background-color: rgb(36, 3, 70);
+            margin: auto;
+            width: 12.0rem;
+            
+            
+        }
+      
+
+     
+
+
+    </style>
+</head>
+<body>
+    
+        <h1>Meu primeiro formulário.</h1>
+        
+        <form action="cadastro.php" autocomplete="off" method="post">
+        
+            <p><label for="inome">Nome:</label>  </p>
+            <input type="text" name="nome" id="inome" >
+        
+            <p><label for="isobrenome">Sobrenome:</label> </p>
+            <input type="text" name="sobrenome" id="isobrenome">
+        
+            <p><input type="submit" value="ENVIAR" id="enviar"></p>
+        </form>
+    
+</body>
+</html>
